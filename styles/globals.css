@@ -1,0 +1,28 @@
+@import "~nprogress/nprogress.css";
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+}
+a {
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* nprogres */
+#nprogress .bar {
+  background-color: red !important;
+}
+#nprogress .spinner-icon {
+  border-top-color: red !important;
+  border-left-color: red !important;
+}
+/* -------------------------- */
